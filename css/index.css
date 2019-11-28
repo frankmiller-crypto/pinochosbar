@@ -1,7 +1,7 @@
 body {
 	margin:0;
 	padding:0;
-	background: linear-gradient(to bottom, black, gray);
+	background: #232323;
 
 	clear: both;
 
@@ -108,7 +108,12 @@ hr {
 	color: #ffae13;
 	font-size:24px;
 	padding: 0 0 7px;
-    border-width: 0 0 2px;   
+    border-width: 0 0 10px;   
+}
+
+#menu .frias a:hover{
+	color: blue;
+	font-size:24px;
 }
 
 #menu .leyenda{
