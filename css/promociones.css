@@ -1,0 +1,28 @@
+#principal{
+	width: 1000px;
+	margin:auto;
+}
+
+.contenido{
+		width:1000px;
+		height:200px;
+		float:left;
+		
+		text-align: center;
+		margin:auto;
+		margin-left:13%;
+}
+
+.contenido img{
+	width: 1000px;
+	height: 200px;
+}
+
+.envoltura {
+	width:1000px;
+	margin:auto;
+	padding:50px 0;
+}
+
+
+
