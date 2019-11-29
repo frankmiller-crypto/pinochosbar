@@ -160,6 +160,7 @@ hr {
 	margin:50px 0;
 	background:url(../imagenes/cerveza.jpg) no-repeat fixed;
 	background-size:100%, 100% auto;
+	margin-bottom: -80px;
 }
 
 
@@ -182,6 +183,7 @@ hr {
     float: left;
     margin-right: 5%;
     border-right: 5px dashed #fff;
+
 }
 
 #contenido blockquote{
@@ -206,7 +208,7 @@ h1,h2{
 
 }
 h2.subtitulo {
-	border-bottom:2px solid #0075a1;
+	border-bottom:2px solid #fff;
 	width:300px;
 	margin:auto;
 	font-family: 'Playfair Display', serif;
@@ -238,6 +240,8 @@ h2.subtitulo {
 		background:#000;
 		color:#fff;
 		text-align:center;
+		margin-bottom: -20px;
+
 }
 	.columna {
 		width:31%;
@@ -293,4 +297,5 @@ h2.subtitulo {
 		background:#262626;
 		color:#fff;
 		text-align:center;
+		background: #212121;
 }
