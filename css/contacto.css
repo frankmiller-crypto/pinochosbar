@@ -2,7 +2,11 @@ body {
 	margin:0;
 	padding:0;
 	clear: both;
-	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,75,75,1) 100%, rgba(11,11,11,1) 100%);
+	background: rgb(27,27,27);
+	background: -moz-linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(25,25,25,1) 52%, rgba(17,17,17,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(25,25,25,1) 52%, rgba(17,17,17,1) 100%);
+	background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(25,25,25,1) 52%, rgba(17,17,17,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b1b1b",endColorstr="#111111",GradientType=1);
 	
 }
 
@@ -114,6 +118,10 @@ hr {
 	font-size:24px;
 	padding: 0 0 7px;
     border-width: 0 0 2px;   
+}
+#menu .frias a:hover{
+	color: blue;
+	font-size:24px;
 }
 
 #menu .leyenda{
