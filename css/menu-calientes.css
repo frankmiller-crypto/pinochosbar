@@ -116,10 +116,9 @@ hr {
 }
 
 #menu .frias a:hover{
-	color: blue;
+	color: #33E3FF;
 	font-size:24px;
 }
-
 #menu .leyenda{
 	float: left;
 	width: 30%;
@@ -178,6 +177,12 @@ table{
 	
 }
 
+thead tr > th{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+}
+
 th{
 
 	color: #fff;
@@ -203,7 +208,6 @@ td > img{
 	padding-right: 20px;
 	align-items: center;
 	border-radius: 10px;
-
 }
 
 h1{
