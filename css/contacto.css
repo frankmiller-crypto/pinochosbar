@@ -299,7 +299,13 @@ h2{
 
 }
 
+.leyenda a{
+	color: #fff;
+}
 
+.leyenda a:hover{
+	color: #ffae13;
+}
 
 
 #pie {
@@ -310,6 +316,7 @@ h2{
 		background:#000;
 		color:#fff;
 		text-align:center;
+		margin-bottom: -40px;
 }
 	.columna {
 		width:31%;
@@ -365,4 +372,9 @@ h2{
 		background:#262626;
 		color:#fff;
 		text-align:center;
+}
+
+#derechos p{
+		text-align: center;
+		font-size: 16px;
 }

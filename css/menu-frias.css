@@ -170,7 +170,7 @@ table{
 	background: url(../imagenes/frias.jpg);
 	background-size: cover;
 	background-position: center;
-	width: 850px;
+	width: 1000px;
 	margin: 15px auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -194,7 +194,7 @@ td{
 	padding-bottom: 30px;
 	padding-left:50px;
 	padding-right:50px;
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -235,7 +235,13 @@ h2{
   margin: 0 auto;
 }
 
+.leyenda a{
+	color: #fff;
+}
 
+.leyenda a:hover{
+	color: #ffae13;
+}
 
 #pie {
 	clear:both;
@@ -245,6 +251,7 @@ h2{
 		background:#000;
 		color:#fff;
 		text-align:center;
+		margin-bottom: -40px;
 }
 	.columna {
 		width:31%;
