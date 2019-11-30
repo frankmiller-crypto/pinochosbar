@@ -23,15 +23,28 @@ hr {
   border-style: dashed; 
 }
 
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	color: #fff;
+
+
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+
+}
+
 #principal{
 	width: 1000px;
 	margin:auto;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-
 
 #menu{
 	margin-top: 0;
@@ -46,114 +59,99 @@ hr {
 
 }
 
-.class{
-	clear: both;
-	margin-bottom: 100px;
-	background: #ccc;
-}
+	#menu ul{
+		text-align:center;
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
 
-.borde {
-
-	border: 1px dashed #fff;
-}
-
-
-#menu ul{
-	text-align:center;
-	list-style:none;
-    margin:0;
-    padding:0;
-}
-
-#menu ul li {
-    position:relative;
-    margin:0;
-    padding:0;
-}
-
-#menu ul li:hover {
-    color: #ffae13;
-}
-
-#menu ul ul {
-    display:none;
-    position:absolute;
-    left:0;
-    padding:0;
-}
-
-#menu ul ul li {
-    float:none;
-    width:110px;
-}
-
-#menu ul ul a {
-    line-height:100%;
-    padding:10px 15px;
-}
-
-#menu ul li:hover > ul {
-    display:block;
-}
-
-#menu li {
-	width:100px;
-	height:20px;
-	display:inline-block;
-	margin-right:10px;
-	color: #fff;
-	font-size: 18px;
-
-}
+	#menu ul li {
+		position:relative;
+		margin:0;
+		padding:0;
+	}
 
 
-#menu a{
-	text-decoration: none;
-	color: #fff;
-	font-weight: bold;
-}
+	#menu ul ul {
+		display:none;
+		position:absolute;
+		left:0;
+		padding:0;
+	}
 
-#menu a:hover{
-	color: #ffae13;
-	font-size:24px;
-	padding: 0 0 7px;
-    border-width: 0 0 2px;   
-}
-#menu .frias a:hover{
-	color: blue;
-	font-size:24px;
-}
+	#menu ul ul li {
+		float:none;
+		width:110px;
+	}
 
-#menu .leyenda{
-	float: left;
-	width: 30%;
+	#menu ul ul a {
+		line-height:100%;
+		padding:10px 15px;
+	}
 
-	text-align:center;
-	margin-right:20px;
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
+	#menu ul li:hover > ul {
+		display:block;
+	}
 
-}
-
-#menu .logo{
+	#menu li {
 		width:100px;
-		height:100px;
-		background: url(../imagenes/logo.png) no-repeat;
-		margin-bottom: -30px;
-}
+		height:20px;
+		display:inline-block;
+		margin-right:10px;
+		color: #fff;
+		font-size: 18px;
 
-	.centrado {
+	}
+
+
+	#menu a{
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+	}
+
+	#menu a:hover{
+		color: #ffae13;
+		font-size:24px;
+		padding: 0 0 7px;
+		border-width: 0 0 2px;   
+	}
+	#menu .frias a:hover{
+		color: #33E3FF;
+		font-size:24px;
+	}
+
+	#menu .leyenda{
+		float: left;
+		width: 30%;
+
+		text-align:center;
+		margin-right:20px;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+
+	}
+
+	#menu .logo{
+			width:100px;
+			height:100px;
+			background: url(../imagenes/logo.png) no-repeat;
+			margin-bottom: -30px;
+	}
+
+.centrado {
 	text-align:center;
 	color: #fff;
-	 justify-content: center;
+	justify-content: center;
     align-items: center;
 }
 
-.centrado img{
-	display:block;
-margin:auto;
-}
+	.centrado img{
+		display:block;
+		margin:auto;
+	}
 
 #envoltura{
 	margin-bottom: -50px;
@@ -162,7 +160,7 @@ margin:auto;
 	
 }
 .margen h1{
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
 
 .columnas{
@@ -180,16 +178,15 @@ margin:auto;
 		box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
 		border-radius: 10px;
 		padding-left:10px;
+		text-align: center;
+		margin-bottom: -25px;
 }
 
-.row img{
-	display:block;
-margin:auto;
-}
+	.row img{
+		display:block;
+		margin:auto;
+	}
 
-.row{
-	text-align: center;
-}
 
 .interlineado p{
 line-height: 10px;
@@ -219,94 +216,63 @@ form{
     opacity: 0.9;
 }
 
-input, textarea{
-    border: none;
-    resize: none;
-    outline: none;
-    padding: 15px 0px;
-    width: 80%;
-    margin: 20px;
-    transition: all 300ms;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
+	input, textarea{
+		border: none;
+		resize: none;
+		outline: none;
+		padding: 15px 0px;
+		width: 80%;
+		margin: 20px;
+		transition: all 300ms;
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
 
-input:focus, textarea:focus{
-    border-bottom-color: #660066 ;
-}
+	input:focus, textarea:focus{
+		border-bottom-color: #660066 ;
+	}
 
-label,span{
-   float: left;
-    background: #fff;
-    font-size: 12px;
-    margin-left: 14px;
-    padding: 0 6px;
-    font-weight: bold;
-    margin-bottom: -10px; 
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
-}
+	label,span{
+	float: left;
+		background: #fff;
+		font-size: 12px;
+		margin-left: 14px;
+		padding: 0 6px;
+		font-weight: bold;
+		margin-bottom: -10px; 
+		font-size: 20px;
+		font-family: 'Anton', sans-serif;
+	}
 
-        
-button{
-    border: none;
-    outline: none;
-   background-image: radial-gradient(at top right, black, lightgrey); padding: 1rem; width: 300px;
-    padding: 15px;
-    width: 200px;
-    color: white;
-    border-radius: 2px;
-    box-shadow: rgba(0,0,0,0.7) 0px 0px 10px;
-    margin: 20px 0px;
-    cursor: pointer;
-    transition: all 300ms;
-}
+			
+	button{
+		border: none;
+		outline: none;
+	background-image: radial-gradient(at top right, black, lightgrey); padding: 1rem; width: 300px;
+		padding: 15px;
+		width: 200px;
+		color: white;
+		border-radius: 2px;
+		box-shadow: rgba(0,0,0,0.7) 0px 0px 10px;
+		margin: 20px 0px;
+		cursor: pointer;
+		transition: all 300ms;
+	}
 
-button:hover{
-    transform: scale(1.05);
-    box-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
-}
+	button:hover{
+		transform: scale(1.05);
+		box-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+	}
 
 
-
-li.contact-number{
-	background: url("../imagenes/phone-icon.png") no-repeat left center;
-}
 ul,li{
 	list-style: none;
 }
-
-
 
 
 #map iframe{
 	width: 99.5%;
 	height: 450px;
 }
-
-h1{
-	font-family: 'Playfair Display', serif;
-	font-size: 36px;
-	color: #fff;
-
-
-}
-h2{
-	font-family: 'Playfair Display', serif;
-	font-size: 36px;
-	color: #000;
-	text-align: center;
-	font-weight: bold;
-
-}
-
-.leyenda a{
-	color: #fff;
-}
-
-.leyenda a:hover{
-	color: #ffae13;
-}
-
 
 #pie {
 	clear:both;
@@ -326,16 +292,7 @@ h2{
 		font-family: 'Oswald', sans-serif;
 
 	}
-	#pie .logo {
-		width:150px;
-		height:150px;
-		margin-right:auto;
-		margin-left: auto;
-		background: url(../imagenes/logo.png) no-repeat;
-		margin-top: -20px;
 
-
-	}
 	#pie .columna li {
 	
 		list-style: none;
@@ -350,19 +307,32 @@ h2{
   	transform: scale(1.2);
   	box-shadow: 5px 5px 5px #ccc;
 }
-	.social {
-		width:50px;
-		height:50px;
-		border-radius:50px;
-		float:left;
-		margin-left:50px;
-	}
+
+
+
+.social {
+	width:50px;
+	height:50px;
+	border-radius:50px;
+	float:left;
+	margin-left:50px;
+}
+
 
 	.social a:hover{
 		opacity:0.6;
 		color: #ffae13;
 
 	}
+
+.leyenda a{
+	color: #fff;
+}
+	
+.leyenda a:hover{
+	color: #ffae13;
+}
+	
 
 #derechos{
 		clear:both;
