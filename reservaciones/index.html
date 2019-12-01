@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151339368-2"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151339368-2');
+    </script>
+    <title>Pinocho's BAR | Reservaciones</title>
+    <meta charset="utf-8"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" type="741a2b3d1a44d94c17c341df-text/javascript"></script>
+    <script type="741a2b3d1a44d94c17c341df-text/javascript">
+		$(document).ready(function(){$("#contenido a").on("click",function(t){if(""!==this.hash){t.preventDefault();var e=this.hash;$("html, body").animate({scrollTop:$(e).offset().top},800,function(){window.location.hash=e})}})});
+	</script>
+    <link rel="stylesheet" type="text/css" href="../css/reservaciones.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display&display=swap" rel="stylesheet">
+    <link href='imagenes/favicon.ico' rel='shortcut icon' />
+    <link rel="icon" type="image/x-icon" href="../imagenes/favicon.ico">
+    
+</head>
+<body>
+
+        <header>
+                <div id="principal">
+                    <div id="menu">
+                        <div class="leyenda"><img src="../imagenes/leyendas/gps.png" alt="gps" /> L&aacute;zaro cardenas #499 Puerto Vallarta</div>
+                        <div class="leyenda"> <img src="../imagenes/leyendas/tiempo.png" alt="horario" /> Lu-Vi 10:00-23:45, S&aacute;-Do 09:00-23:45</div>
+                        <div class="leyenda"> <img src="../imagenes/leyendas/llamada.png" alt="telefono" /><a href="tel:3222228571">322 222 8571</a> </div>
+                    <hr>
+                        <nav>
+                            <ul>
+                                <li><a href="../">Inicio</a></li>
+                                <li><a href="../promociones">Promociones</a></li>
+                                <li><a href="#">Comida</a>
+                                    <ul>
+                                        <li><a href="../comida/caliente.html">Caliente</a>
+                                        <li class="frias"><a href="../comida/fria.html">Fria</a>    
+                                    </ul>
+                                        </li>
+                                                              
+                                <li class="logo"></li>
+            
+                                <li><a href="#">Bebidas</a>
+                                    <ul>
+                                        <li><a href="../bebidas/con-alcohol.html">Alcoholicas</a>
+                                        <li><a href="../bebidas/sin-alcohol.html">Sin Alcohol</a>    
+                                    </ul>
+                                        </li>
+                                <li><a href="#">Reservaciones</a></li>
+                                <li><a href="../contacto">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>      
+            </header>
+            
+             
+            <div id="contenido">
+                    <h1 class="centrado">Reservaciones</h1>
+                    <a href="#formulario" class="boton">Reserva ahora mismo</a>
+                    <div class="envoltura">
+
+                   
+
+                <!--Inicio de mesas-->
+                    <div class="mesas">
+                    <img src="../imagenes/reservaciones/mesa-1.jpg" class="tooltip tooltiptext" alt="mesa1" title="Solo llam&aacute;nos y reserva para ti y tus amigos ">
+                    </div>
+
+                    <div class="mesas">
+                        <img src="../imagenes/reservaciones/mesa-2.jpg" alt="mesa2" title="Solo llam&aacute;nos y reserva para ti y tus amigos ">
+                    </div>
+
+                    <div class="mesas">
+                            <img src="../imagenes/reservaciones/mesa-3.jpg" alt="mesa3" title="Solo llam&aacute;nos y reserva para ti y tus amigos ">
+                    </div>
+
+                    <div class="mesas">
+                    <img src="../imagenes/reservaciones/mesa-4.jpg" alt="mesa1" title="Solo llam&aacute;nos y reserva para ti y tus amigos ">
+                    </div>
+        
+                    <div class="mesas">
+                        <img src="../imagenes/reservaciones/mesa-5.jpg" alt="mesa2" title="Solo llam&aacute;nos y reserva para ti y tus amigos ">
+                    </div>
+        
+                    <div class="mesas">
+                            <img src="../imagenes/reservaciones/mesa-6.jpg" alt="mesa3" title="Solo llam&aacute;nos y reserva para ti y tus amigos ">
+                    </div>
+
+                </div>
+                
+                <!--Fin de mesas-->
+
+                <!--Barra-->
+
+                <div class="barra">
+                    <img src="../imagenes/reservaciones/barra.jpg" alt="barra">
+                </div>
+
+                <!--Barra-->
+                <div id="formulario">
+                        <form action="#" method="post">
+                                <fieldset>
+                                    <h2 class="centrado">Reserva ahora mismo!</h2>
+                                    
+                                    <table>
+                                        <tr>
+                                            <td><label>Nombre:*</label></td>
+                                            <td><input type="text" name="nombre" placeholder="Ingresa tu nombre" required /></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Correo:*</label></td>
+                                            <td><input type="email" name="correo" placeholder="nombre@dominio.com" required /></td>
+                                        </tr>
+                        
+                                        <tr>
+                                            <td><label>Telefono:*</label></td>
+                                            <td><input type="tel" name="telefono" placeholder="(lada) 555-5555" required /></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label>Mensaje:</label></td>
+                                            <td><textarea name="mensaje"></textarea></td>
+                                        </tr>
+                        
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td><button>Enviar Mensaje</button></td>
+                                            
+                                            
+                                        </tr>
+                                    </table>
+                                </fieldset>
+                            </form>
+                        
+                </div>
+            </div>
+
+            <footer>
+                    <div id="pie">
+                        <div class="columna">
+                            <h3>Pinochos Bar</h3>
+                            <img src="../imagenes/logo.png" alt="logo" title="logo de la empresa">
+                        </div>
+                
+                        <div class="columna">
+                            <h3>Cont&aacute;ctanos</h3> 
+                                <div class="leyenda"><img src="../imagenes/leyendas/gps.png" alt="gps" /> L&aacute;zaro cardenas #499 Puerto Vallarta</div>
+                                <div class="leyenda"> <img src="../imagenes/leyendas/tiempo.png" alt="horario" /> Lu-Vi 10:00-23:45, S&aacute;-Do 09:00-23:45</div>
+                                <div class="leyenda"> <img src="../imagenes/leyendas/llamada.png" alt="telefono" /> <a href="tel:3222228571">322 222 8571</a></div> 
+                                <div class="leyenda"><a href="mailto:pinochosbar@hotmail.com">pinochosbar@hotmail.com</a></div>  
+                        </div>
+                        
+                        <div class="columna">
+                            <h3>S&iacute;guenos y dejanos tus comentarios!</h3>
+                
+                                <a  href="https://www.facebook.com/PinochosBAR/" target="_blank">
+                                    <img src="../imagenes/social/facebook-64.png" class="social" alt="social-network" title="Siguenos en facebook" />
+                                </a>
+                
+                                <a  href="https://www.tripadvisor.com.mx/ShowUserReviews-g150793-d14894530-r627560627-Pinocho_s_Bar-Puerto_Vallarta.html" target="_blank">
+                                    <img src="../imagenes/social/tripadvisor-64.png" class="social" alt="social-network" title="Dejanos una opini&oacute;n" />
+                                </a>
+                
+                                <a  href="https://www.yelp.com.mx/biz/pinochos-bar-puerto-vallarta" target="_blank">
+                                    <img src="../imagenes/social/yelp-64.png" class="social" alt="social-network" title="Escribenos una rese&ntilde;a" />
+                                </a>
+                
+                                <a  href="https://es.restaurantguru.com/Pinochos-BAR-Puerto-Vallarta" target="_blank">
+                                    <img src="../imagenes/social/guru.png" class="social" alt="social-network" title="Dejanos una opini&oacute;n" />
+                                </a>
+                     
+                        </div>
+                
+                    </div>
+                    
+                    <div id="derechos">
+                        <p>Derechos Reservados &copy; 2019. Developed By Cazarez Industries</p>
+                    </div>
+                </footer> 
+                <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="741a2b3d1a44d94c17c341df-|49" defer=""></script>
+</body>
+</html>
