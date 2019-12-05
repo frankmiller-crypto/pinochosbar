@@ -207,7 +207,7 @@ hr {
 
 #formulario{
     width: 800px;
-    margin: 0 auto;
+	margin: 100px auto 100px auto;
 }
 
 fieldset {
